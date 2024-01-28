@@ -39,11 +39,19 @@
 
 
 .header_list_item {
+    display: flex;
     font-family: Merriweather;
     font-size: 20px;
-    font-style: normal;
+    font-style: normsal;
     font-weight: 700;
     padding: 36px 0 36px 36px;
+}
+
+.header_list_item img {
+    margin-top: 8px;
+    margin-left: 5px;
+    height: 8px;
+    width: 16px;
 }
 
 .header_button {
