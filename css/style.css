@@ -70,6 +70,7 @@
     color: #0E333D;
     font-weight: 400;
     padding-bottom: 32px;
+    line-height: 127%;
 }
 
 .header_main_title p {
@@ -77,6 +78,7 @@
     color: #727272;
     font-weight: 400;
     padding-bottom: 48px;
+    line-height: 148%;
 }
 
 .header_main_title button {
