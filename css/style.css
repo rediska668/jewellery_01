@@ -4,19 +4,31 @@
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
 
+@import url(https://fonts.googleapis.com/css?family=Raleway+Dots:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
 [class*="_container"] {
     margin: 0 auto;
     max-width: 1140px;
 }
 
-.header_navigation {
-    display: flex;
-    height: 106px;
+/*  Header */
+.header {
+    height: 830px;
 }
 
-.header_navigation h2 {
+
+/*  Header_navigation */
+
+.header_navigation {
+    display: flex;
+
+}
+
+.header_navigation_name {
     padding-top: 27px;
-    padding-left: 3px;
+    width: 190px;
     font-family: Merriweather;
     font-style: italic;
     font-size: 30px;
@@ -25,37 +37,63 @@
 
 .header_navigation ul {
     display: flex;
-    margin-left: 127px;
-    padding: 0 30px 0 30px;
+    padding-left: 30px;
+    padding-right: 112px;
 }
 
 
-
 .header_list_item {
+    display: flex;
     font-family: Merriweather;
     font-size: 20px;
-    font-style: normal;
+    font-style: normsal;
     font-weight: 700;
     padding: 36px 0 36px 36px;
 }
 
+.header_list_item img {
+    margin-top: 8px;
+    margin-left: 5px;
+    height: 8px;
+    width: 16px;
+}
+
 .header_button {
-    margin: 12px 36px 14px 39px;
+    margin-top: 25px;
+    height: 46px;
+    width: 120px;
+    padding: 10px 15px 10px 15px;
     color: #ffff;
     background-color: #0E333D;
+    border-radius: 5%;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*  Header_main */
+
+.header-main {
+    padding-top: 165px;
+    padding-bottom: 140px;
+    display: flex;
 }
 
 .header_main_title {
-    padding-top: 200px;
-
+    padding-right: 86px;
+    padding-left: 26px;
 }
 
 .header_main_title h1 {
+    padding-top: 40px;
     font-family: "DM Serif text";
     font-size: 78px;
     color: #0E333D;
     font-weight: 400;
     padding-bottom: 32px;
+    line-height: 127%;
 }
 
 .header_main_title p {
@@ -63,21 +101,106 @@
     color: #727272;
     font-weight: 400;
     padding-bottom: 48px;
+    line-height: 148%;
 }
 
 .header_main_title button {
-    padding: 44px 10px 44px 10px;
+    padding-inline: 24px 10px 24px 10px;
     font-size: 28px;
     font-weight: 400;
+    height: 62px;
+    width: 197px;
+    border-radius: 5%;
 }
 
 .header_button_shop {
     color: #ffff;
     background-color: #0E333D;
+
 }
 
 .header_button_video {
     color: #0E333D;
     background-color: #fff;
-    margin-left: 47px;
+    margin-left: 24px;
+    text-decoration: underline;
+}
+
+/*  Header_main_img */
+
+.main_img_one {
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+/*!!!  Main_product !!!*/
+
+.main_products {
+    background-color: #0E333D;
+
+}
+
+.main_product {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+}
+
+.main_product_name {
+    color: #fff;
+    font-family: "DM Serif Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%;
+    padding-bottom: 23px;
+}
+
+.main_product_text {
+    color: #EBEBEB;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127%;
+    padding-bottom: 37px;
+}
+
+.main_product_list {
+    display: flex;
+    margin-left: 39%;
+    margin-bottom: 77px;
+}
+
+.main_product_list li {
+    padding-right: 10px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%;
+}
+
+.main_product_list li:hover {
+    text-decoration-line: underline;
+    font-size: 19px;
+    padding-right: 8px;
+}
+
+/*  Main_product_item */
+
+.main_product_item {
+    display: flex;
+}
+
+.main_product_item li {
+    padding-right: 25px;
+    color: #FFF;
+    font-family: "Cormorant Infant";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: left;
 }
