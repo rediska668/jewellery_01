@@ -142,6 +142,7 @@
 
 .main_product {
     padding-top: 94px;
+    padding-bottom: 94px;
     text-align: center;
 }
 
@@ -179,7 +180,12 @@
     font-style: normal;
     font-weight: 600;
     line-height: 127%;
+}
+
+.main_product_list li:hover {
     text-decoration-line: underline;
+    font-size: 19px;
+    padding-right: 8px;
 }
 
 /*  Main_product_item */
