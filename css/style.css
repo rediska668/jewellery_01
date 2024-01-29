@@ -538,7 +538,7 @@
     line-height: 14px;
 }
 
-.footer {
+.foot {
     border-top: 1px solid #969696;
     display: flex;
     color: #DCDCDC;
@@ -551,16 +551,16 @@
     padding-top: 34px;
 }
 
-.footer_list {
+.foot_list {
     display: flex;
     padding-left: 60%;
 }
 
-.footer_list li {
+.foot_list li {
     padding-right: 10%;
 }
 
-.footer_list li:hover {
+.foot_list li:hover {
     color: #fff;
 }
 
