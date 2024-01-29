@@ -334,9 +334,223 @@
 }
 
 
-/* !!! Main_popular_product_item !!! */
+/* !!! Main_about !!! */
+
+.main_about {
+    background-color: #FFF9F4;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about_subtitle {
+    color: #D06B00;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.about_title {
+    color: #0E333D;
+    font-family: "DM Serif Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+
+.about_text {
+    color: #8C8B8A;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127%;
+    padding-bottom: 93px;
+}
+
+.about_review {
+    display: flex;
+    padding-bottom: 125px;
+}
+
+.about_review_one {
+    width: 555px;
+    height: 280px;
+    background-color: #ffff;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+
+.about_review_text {
+    padding-top: 48px;
+    padding-bottom: 33px;
+    color: var(--Dark, #323232);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.about_review-author_img {
+    display: flex;
+    padding-left: 46px;
+}
+
+.about_review-author_text {
+    padding-left: 16px;
+}
+
+.about_review_fullname {
+
+    color: var(--Heading, #323756);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.about_review_profession {
+    color: var(--Medium-Dark, #646464);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about_review_two {
+    width: 555px;
+    height: 280px;
+    background-color: #0E333D;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+.white {
+    color: #fff;
+}
+
+.about_page_one {
+    width: 1em;
+    /* поддерживаются любые единицы, в том числе проценты */
+    margin: 1em auto;
+    background: #D8D8D8;
+    border-radius: 50%;
+}
+
+.about_page_two {
+    width: 1em;
+    /* поддерживаются любые единицы, в том числе проценты */
+    margin: 1em auto;
+    background: #D8D8D8;
+    border-radius: 50%;
+}
+
+.about_page_three {
+    width: 1em;
+    /* поддерживаются любые единицы, в том числе проценты */
+    margin: 1em auto;
+    background: #D8D8D8;
+    border-radius: 50%;
+}
+
+.about_page {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 48%;
+
+}
+
+.about_page_hover:hover {
+    background: #0E333D;
+}
+
+/* !!! Main_about !!! */
 
 
+/* !!! Contact !!! */
 
 
-/* !!! Main_popular_product_item !!! */
+.contact {
+    background-color: #0E333D;
+}
+
+.contact_item {
+    display: flex;
+}
+
+.contact_information_title {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 65px;
+}
+
+.contact_information_subtitle {
+    padding-top: 8px;
+    color: #DCDCDC;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.contact_information_list {
+    display: flex;
+}
+
+.list_information_block {
+    padding-top: 46px;
+    padding-left: 140px;
+}
+
+.list_information_item {
+    padding-bottom: 24px;
+    color: #DCDCDC;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.footer {
+    border-top: 1px solid #969696;
+    display: flex;
+    color: #DCDCDC;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 32px;
+    padding-top: 34px;
+}
+
+.footer_list {
+    display: flex;
+    padding-left: 60%;
+}
+
+.footer_list li {
+    padding-right: 10%;
+}
+
+
+/* !!! Contact !!! */
