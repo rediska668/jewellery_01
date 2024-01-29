@@ -273,7 +273,7 @@
     text-align: center;
 }
 
-.popular_product_content h2 {
+.popular_product_content_title {
     color: #0E333D;
     font-family: "DM Serif Text";
     font-size: 48px;
@@ -283,7 +283,7 @@
     padding-bottom: 29px;
 }
 
-.popular_product_content p {
+.popular_product_content_text {
     color: #8C8B8A;
     font-family: "Raleway";
     font-size: 20px;
@@ -293,11 +293,48 @@
     padding-bottom: 128px;
 }
 
-.popular_product_content_item {
+.popular_product_content_list {
     display: flex;
+    padding-bottom: 140px;
 }
 
-.popular_product_content_item_all {}
+.popular_product_content_list_all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular_product_content_item_main {
+    width: 398px;
+    height: 728px;
+}
+
+.popular_product_content_item_all img {
+    width: 340px;
+    height: 277px;
+}
+
+.popular_product_content_item_all {
+    color: #000;
+    font-family: "Cormorant Infant";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.item_all_text {
+    padding-top: 18px;
+}
+
+.item_all_price {
+    padding-top: 5px;
+}
+
+
+/* !!! Main_popular_product_item !!! */
 
 
 
