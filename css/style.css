@@ -1,23 +1,47 @@
 @import url(reset.css);
 
+
+/* !!! Fonts !!! */
+
 @import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic);
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway+Dots:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* !!! Fonts !!! */
+
 
 [class*="_container"] {
     margin: 0 auto;
     max-width: 1140px;
 }
 
-.header_navigation {
-    display: flex;
-    height: 106px;
+/* !!! Header !!! */
+.header {
+    height: 830px;
 }
 
-.header_navigation h2 {
+
+/*!!!  Header_navigation !!!*/
+
+.header_navigation {
+    display: flex;
+
+}
+
+.header_navigation_name {
     padding-top: 27px;
-    padding-left: 3px;
-    font-family: Merriweather;
+    width: 190px;
+    font-family: "Merriweather";
     font-style: italic;
     font-size: 30px;
     font-weight: 700;
@@ -25,37 +49,63 @@
 
 .header_navigation ul {
     display: flex;
-    margin-left: 127px;
-    padding: 0 30px 0 30px;
+    padding-left: 30px;
+    padding-right: 112px;
 }
 
 
-
 .header_list_item {
-    font-family: Merriweather;
+    display: flex;
+    font-family: "Merriweather";
     font-size: 20px;
-    font-style: normal;
+    font-style: normsal;
     font-weight: 700;
     padding: 36px 0 36px 36px;
 }
 
+.header_list_item img {
+    margin-top: 8px;
+    margin-left: 5px;
+    height: 8px;
+    width: 16px;
+}
+
 .header_button {
-    margin: 12px 36px 14px 39px;
+    margin-top: 25px;
+    height: 46px;
+    width: 120px;
+    padding: 10px 15px 10px 15px;
     color: #ffff;
     background-color: #0E333D;
+    border-radius: 5%;
+    font-family: "Merriweather";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*!!!  Header_main !!!*/
+
+.header-main {
+    padding-top: 165px;
+    padding-bottom: 140px;
+    display: flex;
 }
 
 .header_main_title {
-    padding-top: 200px;
-
+    padding-right: 86px;
+    padding-left: 26px;
 }
 
 .header_main_title h1 {
+    padding-top: 40px;
     font-family: "DM Serif text";
     font-size: 78px;
     color: #0E333D;
     font-weight: 400;
     padding-bottom: 32px;
+    line-height: 127%;
 }
 
 .header_main_title p {
@@ -63,21 +113,456 @@
     color: #727272;
     font-weight: 400;
     padding-bottom: 48px;
+    line-height: 148%;
 }
 
 .header_main_title button {
-    padding: 44px 10px 44px 10px;
+    padding-inline: 24px 10px 24px 10px;
     font-size: 28px;
     font-weight: 400;
+    height: 62px;
+    width: 197px;
+    border-radius: 5%;
 }
 
 .header_button_shop {
     color: #ffff;
     background-color: #0E333D;
+
 }
 
 .header_button_video {
     color: #0E333D;
     background-color: #fff;
-    margin-left: 47px;
+    margin-left: 24px;
+    text-decoration: underline;
 }
+
+/*!!!  Header_main_img !!!*/
+
+.main_img_one {
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+/*!!!  Main_product !!!*/
+
+.main_products {
+    background-color: #0E333D;
+
+}
+
+.main_product {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+}
+
+.main_product_name {
+    color: #fff;
+    font-family: "DM Serif Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%;
+    padding-bottom: 23px;
+}
+
+.main_product_text {
+    color: #EBEBEB;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127%;
+    padding-bottom: 37px;
+}
+
+.main_product_list {
+    display: flex;
+    margin-left: 39%;
+    margin-bottom: 77px;
+}
+
+.main_product_list li {
+    padding-right: 10px;
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%;
+}
+
+.main_product_list li:hover {
+    text-decoration-line: underline;
+    font-size: 19px;
+    padding-right: 8px;
+}
+
+/* !!!  Main_product_item !!! */
+
+.main_product_item {
+    display: flex;
+}
+
+.main_product_item img {
+    width: 271px;
+    height: 270px;
+}
+
+.main_product_item li {
+    padding-right: 25px;
+    color: #FFF;
+    font-family: "Cormorant Infant";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: left;
+}
+
+
+/* !!! main_develop  !!! */
+
+.main_develop_content {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    display: flex;
+}
+
+.main_develop_content_text {
+    padding-right: 35px;
+}
+
+.main_develop_content_text h3 {
+    color: #D06B00;
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 13px;
+}
+
+.main_develop_content_text h2 {
+    color: #0E333D;
+    font-family: "DM Serif Text";
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.5%;
+    padding-bottom: 25px;
+}
+
+.main_develop_content_text p {
+    color: #474747;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.main_develop_content_image {
+    display: flex;
+}
+
+.main_develop_content_image img {
+    width: 273px;
+    height: 518px;
+    padding-right: 15px;
+}
+
+/* !!!  main_develop !!! */
+
+/*!!!  Main_popular_product_item!!! */
+.popular_product_content {
+    text-align: center;
+}
+
+.popular_product_content_title {
+    color: #0E333D;
+    font-family: "DM Serif Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%;
+    padding-bottom: 29px;
+}
+
+.popular_product_content_text {
+    color: #8C8B8A;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127%;
+    padding-bottom: 128px;
+}
+
+.popular_product_content_list {
+    display: flex;
+    padding-bottom: 140px;
+}
+
+.popular_product_content_list_all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular_product_content_item_main {
+    width: 398px;
+    height: 728px;
+}
+
+.popular_product_content_item_all img {
+    width: 340px;
+    height: 277px;
+}
+
+.popular_product_content_item_all {
+    color: #000;
+    font-family: "Cormorant Infant";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.item_all_text {
+    padding-top: 18px;
+}
+
+.item_all_price {
+    padding-top: 5px;
+}
+
+
+/* !!! Main_about !!! */
+
+.main_about {
+    background-color: #FFF9F4;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about_subtitle {
+    color: #D06B00;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.about_title {
+    color: #0E333D;
+    font-family: "DM Serif Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127%;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+
+.about_text {
+    color: #8C8B8A;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127%;
+    padding-bottom: 93px;
+}
+
+.about_review {
+    display: flex;
+    padding-bottom: 125px;
+}
+
+.about_review_one {
+    width: 555px;
+    height: 280px;
+    background-color: #ffff;
+    border-radius: 5%;
+    margin-right: 20px;
+}
+
+.about_review_text {
+    padding-top: 48px;
+    padding-bottom: 33px;
+    color: var(--Dark, #323232);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.about_review-author_img {
+    display: flex;
+    padding-left: 46px;
+}
+
+.about_review-author_text {
+    padding-left: 16px;
+}
+
+.about_review_fullname {
+    color: var(--Heading, #323756);
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.about_review_profession {
+    color: var(--Medium-Dark, #646464);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about_review_two {
+    width: 555px;
+    height: 280px;
+    background-color: #0E333D;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+.white {
+    color: #fff;
+}
+
+.about_page_one {
+    width: 1em;
+    /* поддерживаются любые единицы, в том числе проценты */
+    margin: 1em auto;
+    background: #D8D8D8;
+    border-radius: 50%;
+}
+
+.about_page_two {
+    width: 1em;
+    /* поддерживаются любые единицы, в том числе проценты */
+    margin: 1em auto;
+    background: #D8D8D8;
+    border-radius: 50%;
+}
+
+.about_page_three {
+    width: 1em;
+    /* поддерживаются любые единицы, в том числе проценты */
+    margin: 1em auto;
+    background: #D8D8D8;
+    border-radius: 50%;
+}
+
+.about_page {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 48%;
+
+}
+
+.about_page_hover:hover {
+    background: #0E333D;
+}
+
+/* !!! Main_about !!! */
+
+
+/* !!! Contact !!! */
+
+
+.contact {
+    background-color: #0E333D;
+}
+
+.contact_item {
+    display: flex;
+}
+
+.contact_information_title {
+    color: #fff;
+    font-family: "Merriweather";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 65px;
+}
+
+.contact_information_subtitle {
+    padding-top: 8px;
+    color: #DCDCDC;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    width: 320px;
+}
+
+.contact_information_list {
+    display: flex;
+}
+
+.list_information_block {
+    padding-top: 46px;
+    padding-left: 140px;
+}
+
+.list_information_item {
+    padding-bottom: 24px;
+    color: #DCDCDC;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.foot {
+    border-top: 1px solid #969696;
+    display: flex;
+    color: #DCDCDC;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 32px;
+    padding-top: 34px;
+}
+
+.foot_list {
+    display: flex;
+    padding-left: 60%;
+}
+
+.foot_list li {
+    padding-right: 10%;
+}
+
+.foot_list li:hover {
+    color: #fff;
+}
+
+
+/* !!! Contact !!! */
